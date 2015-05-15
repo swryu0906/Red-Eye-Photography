@@ -15,12 +15,15 @@ html, body {
 .header h1 {
 	color: #31363d;
 	font-size: 40px;
-	margin 0;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 40px 0;
 }
 
 /* Nav */
 .nav ul {
 	text-align: center;
+	margin: 20px 0;
 }
 
 .nav li {
@@ -28,6 +31,12 @@ html, body {
 	-moz-transition: color 0.25s;
 	-o-transition: color 0.25s;
 	transition: color 0.25s;
+	display: inline;
+	margin: 0 30px;
+}
+
+.nav a {
+	color: #fff;
 }
 
 .nav li:hover{
@@ -38,6 +47,7 @@ html, body {
 	-o-transition: color 1s;
 	transition: color 1s;
 }
+
 
 .row {
 	margin-top: 30px;
